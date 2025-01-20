@@ -1,0 +1,27 @@
+.container{
+    display: grid;
+    min-height: 100vh;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+
+    
+}
+.container-item-1{
+    background-color: antiquewhite;
+    grid-column: 1/4;
+}
+.container-item-2{
+    background-color: aliceblue;
+}
+.container-item-3{
+    background-color: aquamarine;
+}
+.container-item-4{
+    background-color:cornflowerblue
+}
+.container-item-5{
+    background-color:cadetblue
+}
+.container-item-6{
+    background-color: aqua;
+}
